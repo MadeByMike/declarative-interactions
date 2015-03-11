@@ -59,3 +59,8 @@ I workshoped some of these ideas at a code night with some friends but this thin
 
 
 I'll post code samples shortly.
+
+Shortly:
+
+http://codepen.io/MadeByMike/pen/ef973bcd7a0cf11ed60382fecf97760a?editors=101
+http://codepen.io/MadeByMike/pen/f44f17470c77c4d9b695772da83daccf
