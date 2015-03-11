@@ -29,7 +29,7 @@ I need to define the full range of data attributes (write a spec) and there are 
 Here is my draft:
 
 Attributes on the initiating element:
-
+```
 data-toggle="%selector%"
 data-hide="%selector%"
 data-show="%selector%"
@@ -37,22 +37,22 @@ data-add-class="%selector%"
 data-remove-class="%selector%"
 data-toggle-class="%selector%"
 data-trigger="%trigger%"
-
+```
 Attributes on the target element:
-
+```
 data-group="%group-name%"
 data-method="%method%"
 data-delay="%delay%"
 data-duration="%duration%"
-
+```
 Definitions:
-
+```
 %trigger% - "click", "dblclick", "hover", "mouseover", "mouseleave"
 %method% - "fade", "slide", "show-hide"
 %selector% - query selector
 %group-name% - string
 %class-name% - string
-
+```
 I workshoped some of these ideas at a code night with some friends but this thinking ultimately failed to work for all cases when tasked with producing simple patterns such as accordians, tooltips, modals and other common patterns. We tried other methods such as data-target=".target" data-action="fade". Nothing we could think of worked in all cases. 
 
 
