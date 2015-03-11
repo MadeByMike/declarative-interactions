@@ -2,7 +2,7 @@
 
 Working demo here: http://codepen.io/MadeByMike/pen/ef973bcd7a0cf11ed60382fecf97760a?editors=101
 
-For a while I've been thinking about developing a standard way to define simple interactions on web elements. Rather than writing the same scripts again and again (with slight differences) to solve the same interaction problems or plonking in a bunch of libraries to do the same thing, I think the interaction could be described with HTML data attributes and a very small library could then apply the interaction.
+For a while I've been thinking about developing a standard way to define simple interactions on web elements. Rather than writing the same scripts again and again (with slight differences) to solve the same interaction problems or plonking in a bunch of libraries to do the same thing. I think the interaction could be described with HTML data attributes and a very small library could then apply the interaction.
 
 An example might be to fade in a message when a link is clicked (and hide the link). The interaction could be defined as follows:
 ```
@@ -35,9 +35,9 @@ Attributes on the initiating element:
 data-toggle="%selector%"
 data-hide="%selector%"
 data-show="%selector%"
-data-add-class="%selector%"
-data-remove-class="%selector%"
-data-toggle-class="%selector%"
+data-add-class="%class-name%"
+data-remove-class="%class-name%"
+data-toggle-class="%class-name%"
 data-trigger="%trigger%"
 ```
 Attributes on the target element:
