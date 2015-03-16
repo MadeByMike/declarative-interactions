@@ -50,7 +50,7 @@ data-duration="%duration%"
 Definitions:
 ```
 %trigger% - "click", "dblclick", "hover", "mouseover", "mouseleave"
-%method% - "fade", "slide", "show-hide"
+%method% - "fade", "slide", "show", "hide"
 %selector% - query selector
 %group-name% - string
 %class-name% - string
@@ -64,3 +64,5 @@ Shortly:
 
 http://codepen.io/MadeByMike/pen/ef973bcd7a0cf11ed60382fecf97760a?editors=101
 http://codepen.io/MadeByMike/pen/f44f17470c77c4d9b695772da83daccf
+
+
